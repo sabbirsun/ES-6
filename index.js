@@ -89,11 +89,17 @@ console.log(z);*/
 
 // Destructuring ES-6 obj
 
-const Obj = {
+/*const Obj = {
     name: "Sabbir",
     age: "23",
     ID: 109,
 }
 const {name,age,ID} = Obj;
-console.log(name,age,ID)
+console.log(name,age,ID);*/
+
+// ES-6 Modules import export
+
+import {NewMessage} from "./message.js";
+console.log(NewMessage);
+
 
