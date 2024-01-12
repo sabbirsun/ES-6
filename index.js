@@ -31,3 +31,13 @@ rest("Sabbir","Sun");*/
 const arr2 = [...arr1,4,5,6]; // array 1 er gulo array 2 te show korar jnno 
 console.log(arr2);*/
 
+// Advance JavaScript Obejct
+
+function say(message,name){
+    return{
+        message,
+        name
+    }
+}
+console.log(say("Hi Sabbir", "Sun"))
+
