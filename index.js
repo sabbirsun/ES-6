@@ -33,11 +33,30 @@ console.log(arr2);*/
 
 // Advance JavaScript Obejct
 
-function say(message,name){
+/*function say(message,name){
     return{
         message,
         name
     }
 }
-console.log(say("Hi Sabbir", "Sun"))
+console.log(say("Hi Sabbir", "Sun"))*/
+
+// For of Loop & For in Loop
+
+/*for(let i = 0; i < 10; i++){
+    console.log(i);
+}
+
+const arr1 = [1,2,3,4,5]
+
+for(newArray of arr1){// for of work
+    console.log(newArray);
+}
+
+const arr2 = [1,2,3,4,5]
+
+for(newArray in arr1){// for in work show index number
+    console.log(newArray);
+}*/
+
 
