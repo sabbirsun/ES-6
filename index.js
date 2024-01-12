@@ -7,6 +7,13 @@
 // }
 // console.log("outside loop" + i);
 
-const obj = {name:"Sabbir"};
+/*const obj = {name:"Sabbir"};
 obj.name = "Sun";
-console.log(obj.name);
+console.log(obj.name);*/
+
+// Default Function Parameters
+
+function say(message){
+    console.log(message);
+}
+say("Hello Sun")
