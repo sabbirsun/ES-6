@@ -81,3 +81,9 @@ const age = 23;
 console.log("My Name is " + name + " & I am " + age + " Year's old") // ES-5
 console.log(`My name is ${name} & I am ${age} year's old`); // ES-6*/
 
+// Destructuring ES-6
+
+const arr1 = [1,2,3,4,5]
+let [a,b,c, ...z] = arr1;
+console.log(z);
+
