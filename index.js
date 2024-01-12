@@ -13,7 +13,14 @@ console.log(obj.name);*/
 
 // Default Function Parameters
 
-function say(message){
+/*function say(message){
     console.log(message);
 }
-say("Hello Sun")
+say("Hello Sun")*/
+
+// Rest Parameters
+
+function rest(...Name){//rest(a,b, ...sun) many value
+    console.log(Name);
+}
+rest("Sabbir","Sun");
