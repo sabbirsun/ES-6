@@ -57,6 +57,27 @@ const arr2 = [1,2,3,4,5]
 
 for(newArray in arr1){// for in work show index number
     console.log(newArray);
+}
+
+const obj = {
+    name: "Sabbir",
+    age: "23",
+    location: "Dhaka"
+}
+for(newObj in obj){// for in work show index number
+    console.log(newObj);
 }*/
 
+
+// ES-6 Template literals
+
+/*const str = `What's your name 
+"My name is Md Sabbirul Islam Sun"`
+console.log(str);
+
+const name = `Sabbir`;
+const age = 23;
+
+console.log("My Name is " + name + " & I am " + age + " Year's old") // ES-5
+console.log(`My name is ${name} & I am ${age} year's old`); // ES-6*/
 
